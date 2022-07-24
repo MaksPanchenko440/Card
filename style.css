@@ -5,6 +5,21 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: darkgrey;
+}
+
 .avatar {
   width: 200px;
   border-radius: 20%;
@@ -12,15 +27,47 @@ body {
 }
 
 .info p {
-  color: antiquewhite;
+  color: rgb(12, 10, 8);
   font-style: italic;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 /* Box model */
-.social {
-  background: rebeccapurple;
-}
 
 .container {
   width: auto;
+  margin: auto;
+}
+
+.card {
+  padding: 15px 20px;
+  background: rgba(68, 68, 255, 0.281);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-11 {
+  background: rgba(255, 255, 115, 0.363);
+  color: rgba(0, 0, 0, 0.674);
+}
+
+.bg-22 {
+  background: rgb(139, 139, 139);
+  color: rgba(0, 0, 0, 0.674);
+}
+
+.bg-33 {
+  background: rgb(107, 126, 85);
+  color: rgba(0, 0, 0, 0.674);
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.table1 {
+  width: 100%;
+}
+.table1 td {
+  margin-bottom: 10px;
 }
