@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+  color: #000f141e;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 20%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0);
+}
+
+.info p {
+  color: antiquewhite;
+  font-style: italic;
+  text-decoration: none;
+}
+/* Box model */
+.social {
+  background: rebeccapurple;
+}
+
+.container {
+  width: auto;
+}
