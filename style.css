@@ -27,16 +27,30 @@ a:visited {
 }
 
 .info p {
-  color: rgb(12, 10, 8);
-  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-style: normal;
   text-decoration: none;
   margin-bottom: 20px;
 }
-/* Box model */
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 30px;
+}
+
+.info-text h1 {
+  color: black;
+  margin-bottom: 10px;
+}
 
 .container {
   width: auto;
   margin: auto;
+  padding-top: 30px;
 }
 
 .card {
@@ -47,17 +61,17 @@ a:visited {
 }
 
 .bg-11 {
-  background: rgba(255, 255, 115, 0.363);
+  background: rgba(224, 224, 127, 0.363);
   color: rgba(0, 0, 0, 0.674);
 }
 
 .bg-22 {
-  background: rgb(139, 139, 139);
+  background: rgb(204, 248, 202);
   color: rgba(0, 0, 0, 0.674);
 }
 
 .bg-33 {
-  background: rgb(107, 126, 85);
+  background: rgb(218, 255, 177);
   color: rgba(0, 0, 0, 0.674);
 }
 
@@ -70,4 +84,33 @@ a:visited {
 }
 .table1 td {
   margin-bottom: 10px;
+}
+
+.bttn {
+  background: fixed;
+  color: darkolivegreen;
+  padding: 15px 20px;
+  border: darkolivegreen;
+  font-family: inherit;
+  cursor: pointer;
+}
+.bttn:hover {
+  opacity: 0.9;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: bisque;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0px 10px;
+  outline: none;
+  font-family: inherit;
 }
