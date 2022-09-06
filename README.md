@@ -1,2 +1,2 @@
-# My test ID Card.
+# My test CV
 https://makspanchenko440.github.io/Card/
